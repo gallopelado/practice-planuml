@@ -1,0 +1,44 @@
+@startgantt
+Project starts 2024-05-06
+
+[Relevamiento y Análisis de requisitos] starts D+0 and ends 2024-05-20
+[Diseño] starts 2024-05-20 and ends 2024-06-11
+
+[Selección de Temas (2 días)] requires 2 days
+
+[Elaboración de entrevistas(3 días)] requires 3 days
+[Elaboración de entrevistas(3 días)] starts at [Selección de Temas (2 días)]'s end
+
+
+[Escritura del Modelo de caso de uso de Larman (5 días)] requires 5 days
+[Escritura del cuadro de requisitos] requires 7 days
+
+[Examen Parcial] starts 2024-05-13
+[Feriados] starts at [Examen Parcial]'s end
+[Feriados] requires 2 days
+
+[Pulido de escenarios de casos de uso] starts at [Examen Parcial]'s end
+[Pulido de escenarios de casos de uso] requires 7 days
+
+[Modelo de Negocio y Diagrama de Caso de uso] starts at [Feriados]'s end
+[Modelo de Negocio y Diagrama de Caso de uso] requires 1 days
+
+[Diagrama de actividades] starts at [Modelo de Negocio y Diagrama de Caso de uso]'s end
+[Diagrama de actividades] requires 1 days
+
+[Diseñar diagrama de casos de uso del módulo] starts at [Modelo de Negocio y Diagrama de Caso de uso]'s end
+[Diseñar diagrama de casos de uso del módulo] requires 7 days
+
+[Diseñar diagrama de clase, secuencia, prototipos] starts at [Diseñar diagrama de casos de uso del módulo]'s end
+[Diseñar diagrama de clase, secuencia, prototipos] requires 15 days
+
+[Diseñar diagrama estructural del módulo y despliegue] starts at [Diseñar diagrama de clase, secuencia, prototipos]'s end
+[Diseñar diagrama estructural del módulo y despliegue] requires 1 days
+
+[Revisiones del trabajo práctico y entrega] starts at [Diseñar diagrama estructural del módulo y despliegue]'s end
+[Revisiones del trabajo práctico y entrega] requires 4 days
+
+[Tiempo de estudio para el examen final] starts at [Revisiones del trabajo práctico y entrega]'s end
+[Tiempo de estudio para el examen final] requires 2 days
+
+@endgantt
